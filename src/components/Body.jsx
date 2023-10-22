@@ -1,12 +1,10 @@
 import { HeroImg } from "../assets/images";
-import Navbar from "./Navbar";
 import CardPlaced from "./CardPlaced";
 
 const Body = () => {
   return (
     <>
-      <div className="bg-background bg-no-repeat bg-cover">
-        <Navbar />
+      <div>
         <main className="grid grid-cols-2 gap-10 min-h-screen min-w-full px-40">
           <section className="flex flex-col gap-10 py-20">
             <div className="text-white font-bold text-5xl ">
@@ -27,7 +25,6 @@ const Body = () => {
             className="rounded-full absolute top-40 left-[55%] ring-[20px] ring-white h-[460px] w-[460px]"
           />
         </main>
-        <CardPlaced />
       </div>
     </>
   );

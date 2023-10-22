@@ -1,3 +1,4 @@
 import HeroImg from '../images/doctorHero.jpg';
 import BackGround from '../images/BackGround.svg';
-export { HeroImg, BackGround };
+import PatientDoc from '../images/patient-doc.jpg';
+export { HeroImg, BackGround,PatientDoc };
