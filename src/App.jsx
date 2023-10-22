@@ -2,6 +2,7 @@ import Body from "./components/Body";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import CardPlaced from "./components/CardPlaced";
+import Service from "./components/Service";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Body />
         <CardPlaced />
         <About />
+        <Service/>
       </div>
     </>
   );
