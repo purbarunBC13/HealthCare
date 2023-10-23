@@ -3,6 +3,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import CardPlaced from "./components/CardPlaced";
 import Service from "./components/Service";
+import Doctors from "./components/Doctors";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <CardPlaced />
         <About />
         <Service/>
+        <Doctors/>
       </div>
     </>
   );
