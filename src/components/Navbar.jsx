@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-[rgba(39,39,39,0.1)] flex justify-around items-center text-white p-5 sticky top-0 z-10 backdrop-blur-[16px] rounded-b-[20px] drop-shadow-lg">
+      <nav className="bg-[rgba(39,39,39,0.1)] flex justify-around items-center text-white p-5 sticky top-0 z-10 backdrop-blur-[16px] drop-shadow-lg">
         <ul className="flex justify-center items-center gap-2">
           <IconContext.Provider value={{ size: "40", color: "#eb5f72" }}>
             <li className="flex justify-center items-center">

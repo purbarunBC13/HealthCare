@@ -27,7 +27,7 @@ const Service = () => {
               <div className="flex flex-col gap-5">
                 <h2 className="text-white text-3xl">{item.heading}</h2>
                 <p className="text-base text-zinc-400 ">{item.des}</p>
-                <div className="bg-blue-500 w-full h-20 rounded-md"></div>
+                <div className="bg-blue-500 w-full h-20 rounded-md ring-2 ring-white text-2xl text-white font-bold flex justify-center items-center cursor-pointer hover:bg-slate-600">Book Now</div>
               </div>
             </section>
           ))}

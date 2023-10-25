@@ -5,7 +5,7 @@ import CardPlaced from "./components/CardPlaced";
 import Service from "./components/Service";
 import Doctors from "./components/Doctors";
 import Review from "./components/Review";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const App = () => {
         <Service/>
         <Doctors/>
         <Review/>
+        <Footer/>
       </div>
     </>
   );
