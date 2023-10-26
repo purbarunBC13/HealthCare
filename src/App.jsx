@@ -6,10 +6,11 @@ import Service from "./components/Service";
 import Doctors from "./components/Doctors";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
+import { BackGround } from "./assets/images";
 const App = () => {
   return (
     <>
-      <div className="bg-background bg-no-repeat bg-contain">
+      <div className="background bg-no-repeat bg-contain">
         <Navbar />
         <Body />
         <CardPlaced />

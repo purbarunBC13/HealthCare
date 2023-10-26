@@ -5,3 +5,7 @@
 .text_white:hover *{
     color: aliceblue;
 }
+
+.background{
+    background-image: url(./assets/images/BackGround.png);
+}
